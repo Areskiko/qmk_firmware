@@ -37,14 +37,14 @@ combo_t key_combos[] = {
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [_BASE] = LAYOUT_5x6(
-        TT(_NUMBER),     KC_1,       KC_2,       KC_3,       KC_4,       KC_5,       /**/  KC_6,       KC_Z,       KC_8,       KC_9,       KC_0,       KC_BSPC,
-        KC_TAB,     KC_J,       KC_C,       KC_Y,       KC_F,       KC_P,       /**/  KC_X,       KC_W,       KC_O,       KC_U,       KC_L,     KC_MINS,
-        KC_ESC,    KC_R,       KC_S,       KC_T,       KC_H,       KC_K,       /**/  KC_M,       KC_N,       KC_A,       KC_I,       KC_Q,       KC_QUOT,
-        OSM(MOD_LSFT),    KC_Z,    KC_V,       KC_G,       KC_D,       KC_B,       /**/  KC_SLSH,    KC_MINS,       KC_COMM,    KC_DOT,    KC_SCLN,    OSM(MOD_LCTL),
-                                KC_LBRC,    KC_RBRC,                            /**/              KC_LPRN,    KC_RPRN,
-                                                KC_ENT,     KC_SPC,             /**/      KC_E,       KC_BSPC,
-                                                KC_HOME,    QK_AREP,            /**/      QK_REP,     KC_RGUI,
-                                                KC_LSFT,    KC_GRV,             /**/      KC_LGUI,    KC_LALT
+        TG(_NUMBER),    KC_1,       KC_2,       KC_3,       KC_4,       KC_5,       /**/  KC_BSLS,       KC_Z,         KC_8,       KC_9,       KC_0,       KC_BSPC,
+        KC_TAB,         KC_J,       KC_C,       KC_Y,       KC_F,       KC_P,       /**/  KC_X,       KC_W,         KC_O,       KC_U,       KC_L,       KC_MINS,
+        KC_ESC,         KC_R,       KC_S,       KC_T,       KC_H,       KC_K,       /**/  KC_M,       KC_N,         KC_A,       KC_I,       KC_Q,       KC_QUOT,
+        OSM(MOD_LSFT),  KC_Z,       KC_V,       KC_G,       KC_D,       KC_B,       /**/  KC_SLSH,    KC_MINS,      KC_COMM,    KC_DOT,     KC_SCLN,    OSM(MOD_LCTL),
+                                    KC_LBRC,    KC_RBRC,                            /**/              KC_LPRN,    KC_RPRN,
+                                                    KC_ENT,     KC_SPC,             /**/      KC_E,       KC_BSPC,
+                                                    KC_HOME,    QK_AREP,            /**/      QK_REP,     KC_RGUI,
+                                                    KC_LSFT,    KC_GRV,             /**/      KC_LGUI,    KC_LALT
     ),
 
     [_NUMBER] = LAYOUT_5x6(
